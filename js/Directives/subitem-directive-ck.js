@@ -1,0 +1,1 @@
+(function(){"use strict";poc.directive("subItem",[function(){return{restrict:"E",scope:{itemDetails:"="},templateUrl:"partials/sub-item-directive.html",link:["scope","element","attrs",function(e,t,n){t.bind("click",function(){console.log(t)})}]}}])})();

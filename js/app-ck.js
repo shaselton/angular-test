@@ -1,0 +1,1 @@
+var poc;(function(){"use strict";poc=angular.module("shaselton.poc",[]).config(["$routeProvider",function(e){e.when("/",{templateUrl:"partials/home.html",controller:"mainController"}).otherwise({redirectTo:"/"})}])})();
