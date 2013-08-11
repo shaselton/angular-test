@@ -1,1 +1,1 @@
-(function(){"use strict";poc.directive("subItem",[function(){return{restrict:"E",scope:{itemDetails:"="},templateUrl:"partials/sub-item-directive.html",link:["scope","element","attrs",function(e,t,n){t.bind("click",function(){console.log(t)})}]}}])})();
+(function(){"use strict";poc.directive("subItem",[function(){return{restrict:"E",replace:!0,scope:{itemDetails:"="},templateUrl:"partials/sub-item-directive.html",link:["scope","element","attrs",function(e,t,n){console.log(t);t.bind("click",function(){console.log(t)})}]}}])})();

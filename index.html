@@ -21,23 +21,22 @@
         <![endif]-->
 
         <div ng-controller="mainController">
-        <div class="header-container">
-            <header class="wrapper clearfix">
-                <nav>
-                    <ul>
-                        <li>menu 1</li>
-                        <li>menu 2</li>
-                        <li>menu 3</li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+            <div class="header-container">
+                <header class="wrapper clearfix">
+                    <nav>
+                        <ul>
+                            <li ng-repeat="item in menuItems" ng-click="changeMenu(item)">{{item.title}}</li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
 
-        <div class="main-container">
-            <div class="main wrapper clearfix" >
-                <div ng-view class="content"></div>
-            </div> <!-- #main -->
-        </div> <!-- #main-container -->
+            <div class="main-container">
+                <div class="main wrapper clearfix" >
+                    <div ng-view class="content"></div>
+                </div> <!-- #main -->
+            </div> <!-- #main-container -->
+        </div>
 
 <!--
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>

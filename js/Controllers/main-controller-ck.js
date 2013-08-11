@@ -1,1 +1,1 @@
-(function(){"use strict";poc.controller("mainController",["$scope",function(e){}])})();
+(function(){"use strict";poc.controller("mainController",["$scope",function(e){var t=function(t){e.subItems=t.items};e.menuItems=[{title:"menu 1",items:[{img:"",name:"sub1"},{img:"",name:"sub2"},{img:"",name:"sub3"},{img:"",name:"sub4"}]},{title:"menu 2",items:[{img:"",name:"sub02"},{img:"",name:"sub023"}]},{title:"menu 3",items:[]}];e.changeMenu=function(t){e.subItems=t.items;console.log(e.subItems,t)};return t(e.menuItems[0])}])})();
