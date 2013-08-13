@@ -124,11 +124,20 @@ nav a:visited {
 
 
 .content{
-    text-align: center;
+    -webkit-column-count: 2;
+    -webkit-column-gap:   20px;  
+    -moz-column-count:    2;
+    -moz-column-gap:      20px;
+    column-count:         2;
+    column-gap:           20px;
 }
 
 
-
+.mod-subitem{
+    background-color: #eee;
+    border: 2px solid #f00;
+    margin-bottom: 20px;
+}
 
 
 
@@ -184,7 +193,14 @@ nav a:visited {
     WIDE: CSS3 Effects
    ==================== */
 
-    
+    .content{
+        -webkit-column-count: 3;
+        -webkit-column-gap:   20px;  
+        -moz-column-count:    3;
+        -moz-column-gap:      20px;
+        column-count:         3;
+        column-gap:           20px;
+    }
 
 /* ============
     WIDE: Menu
@@ -216,6 +232,15 @@ nav a:visited {
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
+    }
+
+    .content{
+        -webkit-column-count: 4;
+        -webkit-column-gap:   20px;  
+        -moz-column-count:    4;
+        -moz-column-gap:      20px;
+        column-count:         4;
+        column-gap:           20px;
     }
 }
 
