@@ -133,8 +133,12 @@ nav a:visited {
 }
 
 
-.mod-subitem{
+.mod-subitem .active{
     background-color: #eee;
+}
+
+.mod-subitem{
+    background-color: #fff;
     border: 2px solid #f00;
     margin-bottom: 20px;
 }
