@@ -1,4 +1,5 @@
-<div>
-	image: {{itemDetails.img}} 
-	name: {{itemDetails.name}}
+<div ng-class="{'active':itemDetails.active}" class="item">
+	<div  class="icon {{itemDetails.class}}">
+	</div>
+	<div>{{itemDetails.name}}</div>
 </div>

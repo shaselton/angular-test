@@ -1,1 +1,1 @@
-(function(){"use strict";poc.controller("mainController",["$scope","$rootScope","$compile","menuService",function(e,t,n,r){t.$on("updateSubItems",function(t,n){console.log(arguments);e.subItems=n})}])})();
+(function(){"use strict";poc.controller("mainController",["$scope","$rootScope","$compile","menuService",function(e,t,n,r){t.$on("updateSubItems",function(t,n){e.subItems=n.items})}])})();

@@ -1,6 +1,44 @@
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot');
+    src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon{
+    font-family: 'icomoon';
+    display: block;
+}
+
+.icon-key:before {
+    content: "\e001";
+}
+.icon-user:before {
+    content: "\e000";
+}
+.icon-bubbles:before {
+    content: "\e002";
+}
+.icon-airplane:before {
+    content: "\e003";
+}
+.icon-book-alt2:before {
+    content: "\e004";
+}
+.icon-microphone:before {
+    content: "\e005";
+}
+.icon-headphones:before {
+    content: "\e006";
+}
+
 
 html,
 button,
@@ -130,6 +168,7 @@ nav a:visited {
     -moz-column-gap:      20px;
     column-count:         2;
     column-gap:           20px;
+    text-align: center;
 }
 
 
@@ -140,11 +179,15 @@ nav a:visited {
 .mod-subitem{
     background-color: #fff;
     border: 2px solid #f00;
+    border-radius: 7px;
     margin-bottom: 20px;
+    width: 100px;
 }
 
-
-
+ul li,
+.item{
+    cursor: pointer;
+}
 
 
 
